@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="12" tilewidth="50" tileheight="50" infinite="0" nextlayerid="5" nextobjectid="1">
+ <editorsettings>
+  <export target="stage.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tiles" tilewidth="50" tileheight="50" tilecount="4" columns="2">
+  <image source="img/tiles.png" width="100" height="100"/>
+  <tile id="0">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="12.3355" y="10.2796"/>
+    <object id="2" x="32.4836" y="9.86842"/>
+    <object id="3" x="10.074" y="39.6793"/>
+    <object id="4" x="40.5016" y="39.4737"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="2" name="タイルレイヤー1" width="100" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztlVkKwCAMRMX2/mcuhQpDiFbjTBfwQX5SyWQxNaXFYvEmW8Vm4z0JI+8e9stUbKBhLVIbxlPh9T6DKVDXhDosfTtbBr29V8+DSemNcp+9PYvEiPbe8z1xn1HL0/PegHKOdX+sbu2f14Lde9Z+1N7SEUNyqudmfZH4LNi9Z83D9i9irXjet1HtE8buYwz1PFDr7q7hPv9lHsjM/nraKl9PnSNnvzqPmfy8GCpfT76zta15vDuPAxm4A+A=
+  </data>
+ </layer>
+</map>
