@@ -11,5 +11,5 @@ with open("stage.csv",newline='') as data:
         #map関数はリストの内容1つ毎に関数を実行してくれます。関数実行後rowに再代入します。
         row = list(map(int,(row)))
         #ここでprintを記述すればどのような内容がリストに格納されるか確認できます。
-        print(row)
+        # print(row)
         stage_data.append(row)
